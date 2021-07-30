@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleTimerView">
+        <!--边距宽度-->
+        <attr name="ctv_border_width" format="dimension" />
+        <!--border底部颜色-->
+        <attr name="ctv_down_border_color" format="color" />
+        <!--border顶部颜色-->
+        <attr name="ctv_up_border_color" format="color" />
+        <!--填充颜色-->
+        <attr name="ctv_fill_color" format="color" />
+        <!--图片资源-->
+        <attr name="ctv_img_src" format="reference" />
+        <!--矩形颜色-->
+        <attr name="ctv_rect_color" format="color" />
+        <attr name="ctv_style_mode" format="enum">
+            <!--有倒计时时间并且有外环的模式-->
+            <enum name="count_down_with_circle" value="0" />
+            <!--有倒计时时间并且没有外环的模式-->
+            <enum name="count_down_no_circle" value="1" />
+            <!--有外环并且有矩形的模式-->
+            <enum name="count_down_with_rect" value="2" />
+            <!--有外环并且有图片的模式-->
+            <enum name="count_down_with_img" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="GrabSingWrapProcessLayout">
+        <attr name="process_first_color" format="color" />
+        <attr name="process_second_color" format="color" />
+    </declare-styleable>
+</resources>
